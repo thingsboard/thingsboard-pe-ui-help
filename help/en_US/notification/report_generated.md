@@ -11,6 +11,9 @@ Available template parameters:
 
 * `reportFormat` - format of the report (CSV, PDF);
 * `reportName` - name of the report, e.g. 'devices.csv';
+* `recipientEmail` - email of the recipient;
+* `recipientFirstName` - first name of the recipient;
+* `recipientLastName` - last name of the recipient;
 
 Parameter names must be wrapped using `${...}`. For example: `${recipientFirstName}`.
 You may also modify the value of the parameter with one of the suffixes:
